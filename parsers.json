@@ -1,9 +1,9 @@
 {
   "wildberries": {
     "host": "wildberries.ru",
-    "name_selector": "h1.product-page__title",
-    "price_selector": "ins.price-block__final-price",
-    "image_selector": "img.slide__content",
+    "name_selector": "h1.product-page__title, .product-line__name, h1[data-link*='goodsName'], .product-detail__name",
+    "price_selector": ".price-block__final-price, .price-block__wallet-price, ins.price-block__final-price",
+    "image_selector": ".swiper-slide-active img, .product-page__slider-wrap img, .slide__content img, .j-zoom-image",
     "use_javascript": true
   },
   "ozon": {
