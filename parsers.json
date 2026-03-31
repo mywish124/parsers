@@ -1,0 +1,16 @@
+{
+  "wildberries": {
+    "host": "wildberries.ru",
+    "name_selector": "h1.product-page__title",
+    "price_selector": "ins.price-block__final-price",
+    "image_selector": "img.slide__content",
+    "use_javascript": true
+  },
+  "ozon": {
+    "host": "ozon.ru",
+    "name_selector": "h1",
+    "price_selector": "span.price-value",
+    "image_selector": "div[data-widget='webGallery'] img",
+    "use_javascript": true
+  }
+}
